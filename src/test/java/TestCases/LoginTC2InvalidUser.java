@@ -11,14 +11,12 @@ public class LoginTC2InvalidUser {
 	@Test
 	public void loginTC2() throws InterruptedException
 	{
-// Added line 1
-// Added line-2
 		// open chrome browser	
 				// create obj -WebUtilites
 		WebUtilites util =  new WebUtilites();
 		WebDriver driver = util.openBrowser("chrome");
 		
-				
+				//openUrlInBrowser		
 				// open url = https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
 		util.openUrlInBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 
