@@ -19,8 +19,7 @@ public class FeatureLoginTest {
         // added
         //openUrlInBrowser
         // open url = https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-        util.openUrlInBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-
+        util.openUrlInBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/auth/log
         // Enter user name  = Admin
         // Create loginpage class object
         LoginPage lpage =  new LoginPage(driver);
