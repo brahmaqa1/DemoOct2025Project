@@ -54,4 +54,8 @@ public class FeatureLoginTest {
         System.out.println("Login Successful");
     }
 
+    public void logout() {
+        System.out.println("Logout Successful");
+    }
+
 }
