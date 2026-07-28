@@ -50,5 +50,8 @@ public class FeatureLoginTest {
 
     }
 
+    public void login() {
+        System.out.println("Login Successful");
+    }
 
 }
