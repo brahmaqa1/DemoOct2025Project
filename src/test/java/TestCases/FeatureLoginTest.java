@@ -15,6 +15,8 @@ public class FeatureLoginTest {
         // create obj -WebUtilites
         WebUtilites util = new WebUtilites();
         WebDriver driver =   util.openBrowser("chrome");
+        //added test
+        // added
         //openUrlInBrowser
         // open url = https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
         util.openUrlInBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
