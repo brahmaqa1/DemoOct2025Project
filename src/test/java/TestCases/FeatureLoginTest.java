@@ -15,12 +15,13 @@ public class FeatureLoginTest {
         // create obj -WebUtilites
         WebUtilites util = new WebUtilites();
         WebDriver driver =   util.openBrowser("chrome");
-        String browser = "Chrome";
+        String browser = "Edge";
         //added test
         // added
         //openUrlInBrowser
         // open url = https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-        util.openUrlInBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/auth/log
+        util.openUrlInBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+
         // Enter user name  = Admin
         // Create loginpage class object
         LoginPage lpage =  new LoginPage(driver);
