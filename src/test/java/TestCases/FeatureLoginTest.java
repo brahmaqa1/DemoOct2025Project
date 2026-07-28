@@ -15,6 +15,7 @@ public class FeatureLoginTest {
         // create obj -WebUtilites
         WebUtilites util = new WebUtilites();
         WebDriver driver =   util.openBrowser("chrome");
+        String browser = "Edge";
         //added test
         // added
         //openUrlInBrowser
